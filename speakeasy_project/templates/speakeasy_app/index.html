@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>SpeakEasy Labs</title>
-</head>
-<body>
-Welcome to SpeakEasy Labs!
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% load staticfiles %}
+
+{% block body_block %}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <img class="center-block" alt="SpeakEasy Logo" src="{{ STATIC_URL }}images/speakeasy_logo.png">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-centre">
+            <br>
+            <p class="lead">
+                Building Transformational Mobile Solutions for the Entertainment and Leisure Industries
+            </p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div <div class="col-md-4"></div>
+        <div class="col-md-4 text-centre"></div>
+        <div <div class="col-md-4"></div>
+    </div>
+</div>
+
+
+{% endblock %}
