@@ -1,3 +1,28 @@
 .text-centre {
     text-align: center;
 }
+
+body {
+    background-image: url("images/city_skyline1.jpg");
+    background-size: 1440px 800px;
+    background-repeat: no-repeat;
+
+}
+
+.index-header-text {
+    color: white;
+    
+}
+
+.index-aboutus-text {
+    color: white;
+}
+
+.index-contactus-text {
+    color: white;
+}
+
+#index-logo-spacer {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
