@@ -1,36 +1,72 @@
-.display-table{
-    display: table;
-    table-layout: fixed;
-    padding-top: 15px;
+
+.bar-image {
+  position: relative;
+
 }
 
-.display-cell{
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
+.logo-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
-body {
-    background-image: url("images/bar_background-edit2.gif");
-    background-size: 100%;
-    background-repeat: no-repeat;
+.black-background {
+    background-color: black;
 }
 
-.index-header-text {
-    color: black;
-    font-size: 16px;
+.header-text {
     text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Franklin Gothic Medium, Franklin Gothic, News Gothic MT, Helvetica, sans-serif;
 }
 
-.logo-center {
+.about-us-text {
     text-align: center;
+    color: white;
+    font-size: 21px;
+    font-family: Franklin Gothic Medium, Franklin Gothic, News Gothic MT, Helvetica, sans-serif;
 }
 
-.index-aboutus-text {
-    color: white;
+.index-icon {
+    height: 30px;
 }
+/*/!*.display-table{*!/*/
+    /*/!*display: table;*!/*/
+    /*/!*table-layout: fixed;*!/*/
+    /*/!*padding-top: 15px;*!/*/
+/*/!*}*!/*/
 
-.index-contactus-text {
-    color: white;
-}
+/*/!*.display-cell{*!/*/
+    /*/!*display: table-cell;*!/*/
+    /*/!*vertical-align: middle;*!/*/
+    /*/!*float: none;*!/*/
+/*/!*}*!/*/
+
+/*body {*/
+    /*/!*background-image: url("images/bar_background-edit2.gif");*!/*/
+    /*/!*background-size: 100%;*!/*/
+    /*/!*background-repeat: no-repeat;*!/*/
+/*}*/
+
+/*.index-header-text {*/
+    /*color: black;*/
+    /*font-size: 16px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.bar-background {*/
+    /*background: url("images/bar_background-edit2.gif");*/
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.index-aboutus-text {*/
+    /*color: white;*/
+/*}*/
+
+/*.index-contactus-text {*/
+    /*color: white;*/
+/*}*/
 
