@@ -1,16 +1,29 @@
-.text-centre {
-    text-align: center;
+.display-table{
+    display: table;
+    table-layout: fixed;
+    padding-top: 10px;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
 }
 
 body {
-    background-image: url("images/city_skyline1-edit.jpg");
-    background-size: 1440px 900px;
+    background-image: url("images/bar_background-edit2.gif");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .index-header-text {
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logo-center {
+    text-align: center;
 }
 
 .index-aboutus-text {
@@ -21,21 +34,3 @@ body {
     color: white;
 }
 
-.header-background {
-    background-color: rgba(0, 0, 0,0.5);
-    opacity: 50%;
-    height: 40px;
-    display: table;
-    /*line-height: 50px;*/
-}
-
-.header-background p {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#index-logo-spacer {
-    padding-top: 230px;
-    padding-bottom: 100px;
-}
